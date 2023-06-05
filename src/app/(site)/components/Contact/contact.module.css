@@ -1,0 +1,57 @@
+.contact{
+    padding: 5rem 0;
+    background-image: linear-gradient( rgb(0, 66, 92),rgb(0, 66, 92) ,rgba(0, 66, 92,0.8));
+}
+
+.contact h2{
+    color: #fff;
+}
+
+.contacts_wrap{
+    text-align: center;
+    color: #fff;
+}
+
+.contacts_wrap h3{
+    font-weight: 500;
+}
+
+.contacts_wrap h3 span{
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+.contacts_wrap h4{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.btn_wrap{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn_wrap a{
+    font-size: 3rem;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-text);
+    border: 0;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgb(119, 119, 119);
+}
+
+.btn_wrap a:hover{
+    box-shadow: 1px 1px 5px rgb(175, 175, 175);
+    scale: 1.03;
+}
+
+.btn_wrap .whatsapp{
+    background-color: rgb(9, 163, 9);
+}
