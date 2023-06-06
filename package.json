@@ -17,5 +17,9 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "swiper": "^9.3.2"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.0.2",
+    "next-on-pages-vercel-cli": "^29.3.0-next-on-pages-fix-3"
   }
 }
