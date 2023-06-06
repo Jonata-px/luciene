@@ -12,8 +12,8 @@ export default function Extra() {
             <div className="container">
                 <Scalable>
                     <h2 className="paralax-right">{"Conheça Tambem"}</h2>
-                    <div className={styles.btn_wrap}>
-                        <Link href={"/sais"} className={styles.btn+" btn paralax"}>SAIS DE SCHÜSSLER</Link>
+                    <div className={styles.btn_wrap+" btn paralax"}>
+                        <Link href={"/sais"} className={styles.btn}>SAIS DE SCHÜSSLER</Link>
                     </div>
                     
                 </Scalable>
