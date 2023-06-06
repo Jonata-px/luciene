@@ -45,20 +45,22 @@ export default function Depoiments({depoimentImages = []}) {
                             "slidesPerView": 1,
                             "spaceBetween": 20
                         },
-                        "500": {
-                            "slidesPerView": 2,
-                            "spaceBetween": 50
-                        },
                         "600": {
+                            "slidesPerView": 2,
+                            "spaceBetween": 30
+                        },
+                        "800": {
                             "slidesPerView": 3,
-                            "spaceBetween": 50
+                            "spaceBetween": 30
                         },
                         }} >
                         {
                             depoimentImages.map((val,key)=>{
                                 return(
-                                    <SwiperSlide key={key} className={styles.slide_single}>
-                                        <img src={val} alt={`Depoiment ${key+1}`} title={`Depoiment ${key+1}`}/>
+                                    <SwiperSlide key={key} className={styles.slide_single_wrap}>
+                                        <div className={styles.slide_single}>
+                                            <img src={val} alt={`Depoiment ${key+1}`} title={`Depoiment ${key+1}`}/>
+                                        </div>
                                     </SwiperSlide>  
                                 )
                             })

@@ -16,9 +16,16 @@
     width: 100%;
 }
 
+.slide_single_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slide_single{
     object-fit: fill;
     height: 400px;
+    width: 260px;
 }
 
 .slide_single img{
