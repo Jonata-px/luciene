@@ -1,0 +1,17 @@
+div.button_wrap{
+    opacity: 1 !important;
+}
+
+a.whatsapp_fixed{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: rgb(9, 163, 9) !important;
+    z-index: 99;
+    border-radius: 50% !important;
+
+}
+
+a.whatsapp{
+    background-color: rgb(9, 163, 9) !important;
+}

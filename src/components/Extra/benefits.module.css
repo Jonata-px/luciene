@@ -1,0 +1,44 @@
+.benefits{
+    padding: 5rem 0;
+    position: relative;
+}
+
+.border_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.border_top > div{
+    position: relative;
+    border-top: 2px solid var(--secondary-text);
+    width: 100%;
+}
+
+.btn_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    font-weight: 300;
+    padding: 7px 25px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--secondary-text);
+    transition: .1s;
+    text-shadow: 1px 1px 1px var(--primary-text);
+    opacity: 1;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    border: 1px solid #ffffff79;
+}
+
+.btn:hover{
+    border: 1px solid #ffffffc9;
+    box-shadow: 1px 1px 5px rgba(211, 211, 211, 0.5);
+}
