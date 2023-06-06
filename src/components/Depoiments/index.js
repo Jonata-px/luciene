@@ -30,10 +30,10 @@ export default function Depoiments({depoimentImages = []}) {
                 <div className='paralax'>
                     <Swiper slidesPerView={3}
                     // loop={true} loopFillGroupWithBlank={true}
-                    autoplay={{
-                        "delay": 5000,
-                        "disableOnInteraction": false
-                    }} 
+                    // autoplay={{
+                    //     "delay": 5000,
+                    //     "disableOnInteraction": false
+                    // }} 
                     spaceBetween={50} 
                     // freeMode={true} 
                     pagination={{
@@ -41,11 +41,11 @@ export default function Depoiments({depoimentImages = []}) {
                     }} 
                     navigation={true}  
                     breakpoints={{
-                        "300": {
+                        "0": {
                             "slidesPerView": 1,
                             "spaceBetween": 20
                         },
-                        "400": {
+                        "500": {
                             "slidesPerView": 2,
                             "spaceBetween": 50
                         },

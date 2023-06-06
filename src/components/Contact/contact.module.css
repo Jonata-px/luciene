@@ -70,3 +70,9 @@
 .certification:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 700px) {
+    .certification_wrap{
+        justify-content: center;
+    }
+}

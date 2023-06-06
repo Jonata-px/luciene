@@ -65,6 +65,24 @@
     }
 
     .header ul{
-        gap: 1rem;
+        gap: .5rem;
+    }
+
+    .header li a{
+        padding: 3px 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .header li{
+        font-size: 1rem;
+    }
+
+    .header ul{
+        gap: .1rem;
+    }
+
+    .header li a{
+        padding: 3px 10px;
     }
 }
