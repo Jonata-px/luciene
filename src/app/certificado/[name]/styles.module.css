@@ -1,5 +1,6 @@
 .page_wrap{
     overflow: auto;
+    min-height: calc(100vh - 45px);
 }
 
 .page{
