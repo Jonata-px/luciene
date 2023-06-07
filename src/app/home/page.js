@@ -9,8 +9,9 @@ import Extra from "@/components/Extra";
 
 export default function Home() {
   const depoimentImages = [
-      "/depoiment_1.jpg",
       "/depoiment_2.jpg",
+      "/depoiment_1.jpg",
+      "/depoiment_3.jpg",
   ];
 
   return (
