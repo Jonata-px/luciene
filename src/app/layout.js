@@ -9,9 +9,8 @@ export const metadata = {
   icons: {
     icon: '/icon.ico',
   },
+  "google-site-verification":"Qs7bE0RZKnq2HJ_sShxnI9UaxxVut-V3YW1_-_bLRxw"
 }
-
-
 
 export default function RootLayout({ children }) {
   return (
