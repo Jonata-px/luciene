@@ -16,7 +16,7 @@ export default function Contact({isRefexologia = true}) {
                 <div className={styles.contacts_wrap}>
                     {isRefexologia &&
                         <div className='paralax-left'>
-                            <h4>Atendimento em <span>Pinhalzinho, SP</span></h4>
+                            <h4>Atendimento a domicílio em <span>Pinhalzinho, SP</span></h4>
                         </div>
                     }
                     <div className={styles.btn_wrap}>
@@ -25,13 +25,9 @@ export default function Contact({isRefexologia = true}) {
                                 <FaPhoneAlt/>
                             </a>
                         </div>
+                        
+                        <WhatsAppButton/>
 
-                        {/* <div className='paralax-right'> */}
-                            <WhatsAppButton/>
-
-                            {/* <div className={styles.whatsapp_placeholder}/> */}
-
-                        {/* </div> */}
                     </div>
 
                     <h3 className='paralax-right'>Luciene Gonsalves</h3>

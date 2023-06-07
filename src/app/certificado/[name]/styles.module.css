@@ -1,0 +1,11 @@
+.page{
+    text-align: center;
+    padding-top: 55px;
+    justify-content: center;
+}
+
+.page canvas{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}

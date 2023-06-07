@@ -9,15 +9,14 @@ export default function TicTic({top = false, color = "rgb(207, 222, 224)"}) {
         var janela = document.documentElement.offsetWidth + 40;
         let tictic = ticticRef?.current;
         let pixels = "";
-        for(let i=0; i<janela / 20; i++){
-            if(tictic){
+        if(tictic){
+            for(let i=0; i<janela / 20; i++){
                 tictic.parentNode.style.position = "relative";
                 pixels +=`<pixel style="background-color:${color}" ></pixel>`;
-            }
-        }   
-        
-        tictic.innerHTML = pixels;
-        
+            }   
+            
+            tictic.innerHTML = pixels;
+        }
     }
 
     useEffect(()=>{

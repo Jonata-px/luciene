@@ -10,7 +10,6 @@ export default function WhatsAppButton() {
         var body = document.body;
 
         body.addEventListener('scroll',()=>{
-            console.log(elementoVisivel(buttonRef.current))
             if(elementoVisivel(buttonRef.current)){
                 setIsFixed(false)
             }else if(!elementoVisivel(buttonRef.current)){
