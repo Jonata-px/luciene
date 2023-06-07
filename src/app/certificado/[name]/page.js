@@ -23,7 +23,7 @@ export default function Certificado({params}) {
 
     return (
         <>
-            <div style={{background:"red"}}>
+            <div className={styles.page_wrap}>
                 <Header/>
                 <Document canvasBackground={"#000"} renderMode="canvas" file={`/${name}`} onLoadSuccess={onDocumentLoadSuccess}>
                     <Page className={styles.page} canvasBackground={backgroundColor} pageNumber={1} renderTextLayer={false}/>
