@@ -19,13 +19,16 @@ export default function Home() {
     <>
       <Header isHome={true}/>
       <Banner/>
+
       <div className="background_gradient">
-        <About title="Refrexologia Podal">
+        
+        <About title="Reflexologia Podal">
           <p>A REFLEXOLOGIA PODAL é uma técnica de pressão em zonas reflexas dos pés, capaz de atuar na prevenção e auxilio ao tratamento de disfunções no corpo.</p>
           <p>Essa técnica tem sido usada há milhares de anos em todo o mundo. Ela tem sido utilizada para tratar uma ampla variedade de condições de saúde e tem um histórico comprovado de eficácia.</p>
           <p>Se você está buscando uma forma segura e eficaz de aliviar o estresse, reduzir a dor e promover o  bem-estar., a reflexologia pode ser uma opção confiável.</p>
           <p>Além disso, a reflexologia é uma terapia natural e não invasiva, o que significa que não há risco de efeitos colaterais graves ou danos ao seu corpo. Ao contrário de outras formas de tratamento, a reflexologia trabalha com o próprio corpo para estimular a Harmonia e o equilíbrio.</p>
         </About>
+
         <Benefits title={"Alguns dos Benefícios"} image={"/benefits.jpg"}>
           <li className="paralax-left">Redução do estresse e da ansiedade.</li>
           <li className="paralax-right">Alívio da dor.</li>
